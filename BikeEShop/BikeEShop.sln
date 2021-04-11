@@ -13,11 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Client", "4 - Client", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{E5623C4A-F30A-48D2-AB46-C1429AF57A4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeEShop.API", "..\BikeEShop.API\BikeEShop.API.csproj", "{31EF0BBE-8F85-49E2-9405-E843A354ECEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeEShop.API", "..\BikeEShop.API\BikeEShop.API.csproj", "{31EF0BBE-8F85-49E2-9405-E843A354ECEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeEShop.Domain", "..\BikeEShop.Domain\BikeEShop.Domain.csproj", "{C9244876-D097-4D81-93B9-37D0E04C3421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeEShop.Domain", "..\BikeEShop.Domain\BikeEShop.Domain.csproj", "{C9244876-D097-4D81-93B9-37D0E04C3421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeEShop.Data", "..\BikeEShop.Data\BikeEShop.Data.csproj", "{C22F589A-4DE8-472D-A700-973F768B635E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeEShop.Data", "..\BikeEShop.Data\BikeEShop.Data.csproj", "{C22F589A-4DE8-472D-A700-973F768B635E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeEShop.Tests", "BikeEShop.Tests\BikeEShop.Tests.csproj", "{19EE6F22-C7D1-411C-B18C-8B6259A89453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{C22F589A-4DE8-472D-A700-973F768B635E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C22F589A-4DE8-472D-A700-973F768B635E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C22F589A-4DE8-472D-A700-973F768B635E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EE6F22-C7D1-411C-B18C-8B6259A89453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EE6F22-C7D1-411C-B18C-8B6259A89453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EE6F22-C7D1-411C-B18C-8B6259A89453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EE6F22-C7D1-411C-B18C-8B6259A89453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{31EF0BBE-8F85-49E2-9405-E843A354ECEF} = {D477D9CB-A21F-4E90-956C-5118B917B0AF}
 		{C9244876-D097-4D81-93B9-37D0E04C3421} = {29E58960-D5BC-4D68-A752-D3A390016171}
 		{C22F589A-4DE8-472D-A700-973F768B635E} = {75438240-C6CE-454F-BC38-2408B52D582B}
+		{19EE6F22-C7D1-411C-B18C-8B6259A89453} = {E5623C4A-F30A-48D2-AB46-C1429AF57A4B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E23D9A29-89D9-4F47-AA9E-1044E667CAD0}
